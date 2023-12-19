@@ -27,6 +27,6 @@ export class AppService {
   }
 
   prettyNumbers(n: number[]): string[] {
-    return n.map((x) => x.toLocaleString('pl-PL'));
+    return n.map((x) => x.toLocaleString('en-US'));
   }
 }
