@@ -12,8 +12,8 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - uses: Copy repository
-      - uses: actions/checkout@v3
+      - name: Copy repository
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
